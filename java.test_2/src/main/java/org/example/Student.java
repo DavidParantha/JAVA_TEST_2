@@ -1,4 +1,5 @@
 
+
 package org.example;
 
 public class Student {
@@ -14,8 +15,10 @@ public class Student {
 
     public void printpercentage(){
         double Percentage=((double)marksobtained/Max_Marks) * 100;
-        System.out.println("Name:"+name+"\nCollege:"+collegename +
-                "\nMarks Obtained:"+marksobtained+"\nPercentage: " +
-                String.format("%.2f",Percentage)+"%");
+        System.out.println("Name:"+name+
+                           "\nCollege:"+collegename +
+                           "\nMarks Obtained:"+marksobtained+
+                           "\nPercentage: " +String.format("%.2f",Percentage)+"%");
     }
 }
+
